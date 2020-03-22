@@ -27,6 +27,7 @@ public class AddStudentServlet extends HttpServlet {
          */
         s.setStudentId(Long.parseLong(req.getParameter("student_id")));
         s.setStudent_name(req.getParameter("student_name"));
+        s.setStudent_password(req.getParameter("student_id"));
         s.setCreateTime(new Date());
 
         Boolean result = StudentHomeworkJdbc.addStudent(s);

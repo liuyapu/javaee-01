@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class StudentHomework {
 
-    private Long id;
+
     private  Long studentId;
     private Long homeworkId;
     private String homeworkTitle;
@@ -12,13 +12,6 @@ public class StudentHomework {
     private Date createTime;
     private Date updateTime;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public Long getStudentId() {
         return studentId;
@@ -67,4 +60,5 @@ public class StudentHomework {
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
     }
+
 }
